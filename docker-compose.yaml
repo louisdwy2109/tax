@@ -17,6 +17,6 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - $HOME/data/mongo-db-data:/data/db
-      - $HOME/data/mongo-db-bkp:/data/bkp
+      - /data/mongo-db-data:/data/db
+      - /data/mongo-db-bkp:/data/bkp
     restart: always

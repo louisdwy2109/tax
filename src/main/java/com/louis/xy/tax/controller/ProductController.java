@@ -1,7 +1,7 @@
 package com.louis.xy.tax.controller;
 
 
-import com.louis.xy.tax.model.Product;
+import com.louis.xy.tax.model.entity.Product;
 import com.louis.xy.tax.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
